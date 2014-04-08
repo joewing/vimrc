@@ -11,6 +11,7 @@ set nosmartindent
 set nofoldenable
 set nohlsearch
 set laststatus=2
+set ruler
 au FileType python set omnifunc=pythoncomplete#Complete
 let g:SuperTabDefaultCompletionType = "context"
 set completeopt=menuone,longest,preview
