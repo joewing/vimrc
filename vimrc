@@ -26,3 +26,5 @@ augroup resCur
     autocmd!
     autocmd BufWinEnter * call ResCur()
 augroup END
+hi clear SpellBad
+hi SpellBad cterm=underline
