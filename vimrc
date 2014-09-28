@@ -1,7 +1,6 @@
 execute pathogen#infect()
 syn on
 filetype on
-filetype plugin indent off
 set ts=4
 set sts=4
 set sw=4
